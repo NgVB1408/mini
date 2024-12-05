@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trò chơi khủng long</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="player-input">
+        <h2>Nhập tên của bạn</h2>
+        <input type="text" id="player-name" placeholder="Tên của bạn">
+        <button id="start-game">Bắt đầu</button>
+    </div>
+    <div id="game-container">
+        <h1>Trò chơi khủng long</h1>
+        <div id="game">
+            <div id="dino"></div>
+            <div id="cactus"></div>
+        </div>
+        <div id="score">Điểm: 0</div>
+        <div id="leaderboard">
+            <h2>Bảng xếp hạng hôm nay</h2>
+            <ul id="leaderboard-list"></ul>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
